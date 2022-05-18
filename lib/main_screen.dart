@@ -95,12 +95,17 @@ class _LocalRestaurantListState extends State<LocalRestaurantList> {
                                   children: [
                                     Text(
                                       restaurant.name,
-                                      style: const TextStyle(fontSize: 18),
+                                      style: const TextStyle(
+                                          fontSize: 18,
+                                          fontWeight: FontWeight.bold),
                                     ),
                                     const SizedBox(height: 8),
                                     Row(
                                       children: [
-                                        const Icon(Icons.location_on),
+                                        const Icon(
+                                          Icons.location_on,
+                                          color: Colors.red,
+                                        ),
                                         const SizedBox(width: 4),
                                         Text(
                                           restaurant.city,
@@ -111,7 +116,10 @@ class _LocalRestaurantListState extends State<LocalRestaurantList> {
                                     const SizedBox(height: 4),
                                     Row(
                                       children: [
-                                        const Icon(Icons.star),
+                                        const Icon(
+                                          Icons.star,
+                                          color: Colors.yellow,
+                                        ),
                                         const SizedBox(width: 4),
                                         Text(
                                           restaurant.rating.toString(),

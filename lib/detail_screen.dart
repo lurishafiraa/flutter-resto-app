@@ -80,7 +80,7 @@ class DetailMobilePage extends StatelessWidget {
                   const SizedBox(height: 4),
                   Row(
                     children: [
-                      const Icon(Icons.location_on),
+                      const Icon(Icons.location_on, color: Colors.red),
                       const SizedBox(width: 4),
                       Text(
                         restaurant.city,

@@ -47,8 +47,8 @@ class _SplashState extends State<Splash> {
           body: Center(
             child: Image.asset(
               'images/restaurant.png',
-              width: 200.0,
-              height: 100.0,
+              width: 800.0,
+              height: 400.0,
               // style: TextStyle(fontSize: 50, color: Colors.black),
             ),
             // Image.asset('assets/restaurant.png'),
